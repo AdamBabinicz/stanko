@@ -1,43 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/assets/3.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="DESCRIPTION"
+      content="Od początku lat 60. ubiegłego wieku należał do najważniejszych artystów polskiej sceny jazzowej, wywarł znaczący wpływ na jej rozwój i dokonania. Atutem sztuki Tomasza Stańki był własny, odrębny ton, nastrojowy klimat, słowiańska melancholia, łatwo rozpoznawalne od pierwszego dźwięku, charakterystyczne brzmienie jego trąbki."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta
+      name="Nagrał około czterdziestu albumów autorskich, skomponował muzykę do kilkudziesięciu filmów, m.in.: 'Trąd', 'Dziura w ziemi', 'Pożegnanie z Marią', 'Skaza', 'Reich', 'Egzekutor' i spektakli teatralnych: 'Balladyna', 'Nienasycenie', 'Roberto Zucco', 'Wyzwolenie'."
+      content="index, follow"
+    />
+    <meta name="handheldFriendly" content="true" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Koncertował niemal na całym świecie, występował i nagrywał m.in. z Cecilem Taylorem, Janem Garbarkiem, Peterem Warrenem, Stu Martinem, Edwardem Vesalą, Donem Cherrym, Garym Peacockiem, Davem Hollandem, Dino Saluzzim, Krzysztofem Komedą, Adamem Makowiczem, Januszem Muniakiem, Zbigniewem Seifertem, Michałem Urbaniakiem, Urszulą Dudziak, Tomaszem Szukalskim, Guy Klucevsekiem, Vlatko Kučanem i Jackiem DeJohnette."
+    />
+    <meta property="og:url" content="https://dalajlama.netlify.app" />
+    <meta property="og:image" content="https://dalajlama.netlify.app/1.jpg" />
+    <meta property="fb:app_id" content="1951716098397474" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="1200" />
+    <meta
+      property="business:contact_data:street_address"
+      content="Tomasz Stańko"
+    />
+    <meta
+      property="business:contact_data:locality"
+      content="Laureat wielu polskich i międzynarodowych nagród i wyróżnień muzycznych. Był pierwszym laureatem Europejskiej Nagrody Jazzowej (2003)."
+    />
+    <meta
+      property="business:contact_data:region"
+      content="Fascynowało go malarstwo Vincenta van Gogha i Amadeo Modiglianiego, literatura Jamesa Joyce'a, Franza Kafki, Williama Faulknera. Korzenie muzyki Tomasza Stańki tkwią w stylistyce cool jazzu w jego klasycznym wydaniu z lat 50. i 60."
+    />
+    <meta property="business:contact_data:postal_code" content="176219" />
+    <meta
+      property="business:contact_data:country_name"
+      content="Zawsze interesowała mnie tradycja. U Krzysztofa Komedy słuchaliśmy głównie muzyki skalowej: Milesa Daviesa, Johna Coltrane'a. To z tego czerpałem inspiracje. Rzecz jasna, istotny był także Ornette Coleman, ale raczej jako przykład pewnej postawy wobec sztuki - poszukującej i buntowniczej - niż jako propozycja konkretnej muzycznej konwencji."
+    />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:site"
+      content="https://twitter.com/prezydentpl/status/1023552603916066816?ref_src=twsrc%5Etfw"
+    />
+    <meta
+      name="twitter:title"
+      content="Stańko bywał ekscentryczny i prowokacyjny. Grał długimi, otwartymi strukturami free. Bardzo ważnym elementem jego muzyki są spontaniczne, elektryzujące improwizacje ujęte w przemyślaną, konsekwentną całość."
+    />
+    <meta
+      name="twitter:description"
+      content="Jazz szybko staje się nawykiem. Nic innego w życiu nie robię, granie na trąbce jest moim życiem. Dla mnie najważniejsza w jazzie jest improwizacja, tzn. rola kreatywności w błyskawicznym procesie tworzenia, w procesie równym trwaniu dzieła. Swoiste skojarzenia dźwiękowe, akty wyboru, filozofia błędu."
+    />
+    <meta name="twitter:image" content="https://dalajlama.netlify.app/1.png" />
+    <meta
+      name="twitter:image:alt"
+      content="Właściwie tworzę szyfry, które dają mi możliwość improwizacji. To możliwe, bo muzyka jest abstrakcyjna i nawet minimalna zmiana tempa daje całkowicie odmienną frazę. Mam swoje ulubione akordy, które mogę zmieniać tak, by w sekundę przechodziły z liryzmu w furię."
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/assets/5.svg" />
+
+    <title>Tomasz Stańko</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div id="modal"></div>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type": "VideoObject",
+        "name": "Drugim ważnym składnikiem utworów komponowanych i granych przez Tomasza Stańkę stała się bardzo silnie rozwinięta melodyka, na ogół nasycona liryzmem i romantyczną zadumą.",
+        "contentUrl": "https://www.facebook.com/TomaszStanko.official",
+        "duration": "PT00H04M33S",
+        "thumbnailUrl": "https://dalajlama.netlify.app/1.webp",
+        "uploadDate": "2022-07-22",
+        "description": "Trzecim, równie istotnym co improwizacja i melodia, elementem muzycznego języka Stańki było brzmienie jego trąbki."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Blog",
+        "url": "https://dalajlama.netlify.app"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "Stańko",
+        "url": "https://dalajlama.netlify.app",
+        "sameAs": [
+          "https://www.facebook.com/TomaszStanko.official",
+          "https://pl.wikipedia.org/wiki/Tomasz_Sta%C5%84ko",
+          "https://twitter.com/jaroslawkuzniar/status/1023525487266672640",
+          "https://www.youtube.com/watch?v=bViJYx7ch5s",
+          "https://pl.pinterest.com/pin/397794579557663660"
+        ]
+      }
+    </script>
   </body>
 </html>

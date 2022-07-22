@@ -1,13 +1,52 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Barrio&family=Big+Shoulders+Inline+Text:wght@100;900&family=Bungee+Inline&family=Grenze+Gotisch:wght@100;900&family=Major+Mono+Display&family=Moo+Lah+Lah&family=Ranchers&family=Righteous&family=Roboto:wght@100;400&family=Rubik+Glitch&family=Rubik+Microbe&family=Rubik+Moonrocks&family=Rubik+Puddles&family=Saira+Stencil+One&family=Syne+Mono&family=Titan+One&family=Tourney:wght@800;900&family=Train+One&family=VT323&display=swap");
+
+:root {
+  --yellow-theme-background: #1d1d1d;
+  --yellow-theme-main-color: #ffdd40;
+  --yellow-theme-sub-text-color: #fff;
+  --yellow-theme-nav-background: #181818;
+  --yellow-theme-nav-background1: #004dc0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  height: 100%;
+  overflow-x: hidden;
+}
+body {
+  background: var(--yellow-theme-nav-background1);
+  height: 100%;
+  font-family: "Barrio", cursive;
+}
+li {
+  list-style: none;
+}
+#root {
+  height: 100%;
+}
+/* font-family: 'Alumni Sans Inline One', cursive;
+font-family: 'Barrio', cursive;
+font-family: 'Big Shoulders Inline Text', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Grenze Gotisch', cursive;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Moo Lah Lah', cursive;
+font-family: 'Ranchers', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik Glitch', cursive;
+font-family: 'Rubik Microbe', cursive;
+font-family: 'Rubik Moonrocks', cursive;
+font-family: 'Rubik Puddles', cursive;
+font-family: 'Saira Stencil One', cursive;
+font-family: 'Syne Mono', monospace;
+font-family: 'Titan One', cursive;
+font-family: 'Tourney', cursive;
+font-family: 'Train One', cursive;
+font-family: 'VT323', monospace; */
