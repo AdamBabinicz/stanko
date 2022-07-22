@@ -127,40 +127,46 @@
       h3 {
         font-size: 1.8rem;
       }
-    }
 
-    &__servicesWrapper {
-      margin: 10px 0;
+      ul > li {
+        span.value {
+          font-size: 1.5rem;
+        }
+      }
 
-      &__innerContent {
-        width: 300px;
-        height: 300px;
-        background: radial-gradient(
-            120px,
-            var(--yellow-theme-main-color),
-            transparent 120%
-          ),
-          url(../../assets/1.jpg) center/cover;
+      &__servicesWrapper {
+        margin: 10px 0;
 
-        div:nth-child(1) {
-          position: absolute;
-          top: -9%;
-          left: 38%;
-        }
-        div:nth-child(2) {
-          position: absolute;
-          top: 40%;
-          right: -11%;
-        }
-        div:nth-child(3) {
-          position: absolute;
-          bottom: -12%;
-          left: 40%;
-        }
-        div:nth-child(4) {
-          position: absolute;
-          top: 40%;
-          left: -12%;
+        &__innerContent {
+          width: 300px;
+          height: 300px;
+          background: radial-gradient(
+              120px,
+              var(--yellow-theme-main-color),
+              transparent 120%
+            ),
+            url(../../assets/1.jpg) center/cover;
+
+          div:nth-child(1) {
+            position: absolute;
+            top: -9%;
+            left: 38%;
+          }
+          div:nth-child(2) {
+            position: absolute;
+            top: 40%;
+            right: -11%;
+          }
+          div:nth-child(3) {
+            position: absolute;
+            bottom: -12%;
+            left: 40%;
+          }
+          div:nth-child(4) {
+            position: absolute;
+            top: 40%;
+            left: -12%;
+          }
         }
       }
     }
