@@ -63,8 +63,11 @@
 
     @media only screen and (max-width: 676px) {
       width: calc(10rem + 55vw);
-      font-size: 0.7rem;
+      // font-size: 0.7rem;
 
+      p {
+        font-size: 1.5rem;
+      }
       .medal {
         display: flex;
         flex-direction: column;
