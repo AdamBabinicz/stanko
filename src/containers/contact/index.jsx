@@ -23,7 +23,7 @@ const Contact = () => {
             transform: "translateX(0px)",
           }}
         >
-          <h3 className="contact__content__header-text">Let's Talk</h3>
+          <h3 className="contact__content__header-text">Porozmawiaj</h3>
         </Animate>
         <Animate
           play
@@ -75,6 +75,7 @@ const Contact = () => {
             </div>
             <button>Wyślij</button>
           </div>
+          <p>Radom, 2022 - {new Date().getFullYear()}.</p>
         </Animate>
       </div>
     </section>

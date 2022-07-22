@@ -15,6 +15,13 @@
       border-bottom: 2px solid var(--yellow-theme-main-color);
     }
 
+    p {
+      text-align: center;
+      font-size: 2rem;
+      color: var(--yellow-theme-main-color);
+      margin-top: 12rem;
+    }
+
     &__header-text::before,
     &__header-text::after {
       position: absolute;
