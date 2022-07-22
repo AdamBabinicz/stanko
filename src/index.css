@@ -23,6 +23,7 @@ body {
   background: var(--yellow-theme-nav-background1);
   height: 100%;
   font-family: "Barrio", cursive;
+  overflow-x: hidden;
 }
 li {
   list-style: none;
